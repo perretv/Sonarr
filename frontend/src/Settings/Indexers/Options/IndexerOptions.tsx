@@ -127,6 +127,18 @@ function IndexerOptions({
             />
           </FormGroup>
 
+          <FormGroup>
+            <FormLabel>{translate('BlockDownloadsBeforeAirdate')}</FormLabel>
+
+            <FormInputGroup
+              type={inputTypes.CHECK}
+              name="blockDownloadsBeforeAirdate"
+              helpText={translate('BlockDownloadsBeforeAirdateHelpText')}
+              onChange={handleInputChange}
+              {...settings.blockDownloadsBeforeAirdate}
+            />
+          </FormGroup>
+
           <FormGroup advancedSettings={showAdvancedSettings} isAdvanced={true}>
             <FormLabel>{translate('RssSyncInterval')}</FormLabel>
 

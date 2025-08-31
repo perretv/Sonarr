@@ -9460,6 +9460,9 @@
           "rssSyncInterval": {
             "type": "integer",
             "format": "int32"
+          },
+          "blockDownloadsBeforeAirdate": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false

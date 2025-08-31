@@ -41,6 +41,7 @@ public enum DownloadRejectionReason
     CustomFormatMinimumScore,
     MinimumFreeSpace,
     FullSeasonNotAired,
+    UnairedEpisode,
     MaximumSizeExceeded,
     MinimumAge,
     MaximumAge,
