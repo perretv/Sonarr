@@ -124,6 +124,12 @@ namespace NzbDrone.Core.Configuration
             set { SetValue("MinimumAge", value); }
         }
 
+        public bool BlockDownloadsBeforeAirdate
+        {
+            get { return GetValueBoolean("BlockDownloadsBeforeAirdate", false); }
+            set { SetValue("BlockDownloadsBeforeAirdate", value); }
+        }
+
         public ProperDownloadTypes DownloadPropersAndRepacks
         {
             get { return GetValueEnum("DownloadPropersAndRepacks", ProperDownloadTypes.PreferAndUpgrade); }

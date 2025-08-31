@@ -167,6 +167,8 @@
   "BlocklistRelease": "Blocklist Release",
   "BlocklistReleaseHelpText": "Blocks this release from being redownloaded by {appName} via RSS or Automatic Search",
   "BlocklistReleases": "Blocklist Releases",
+  "BlockDownloadsBeforeAirdate": "Prevent grabbing unaired episodes",
+  "BlockDownloadsBeforeAirdateHelpText": "When enabled, {appName} won’t automatically download releases until the episode’s air date/time has passed. Add the tag 'preair-ok' to a series to allow pre-air grabs for that series.",
   "Branch": "Branch",
   "BranchUpdate": "Branch to use to update {appName}",
   "BranchUpdateMechanism": "Branch used by external update mechanism",
